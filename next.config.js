@@ -5,7 +5,7 @@ module.exports = {
   },
   images:{
     loader: 'akamai',
-    path: ""
+    path: "/public"
   },
   basePath: "/AbdullahAnsari",
   assetPrefix: "/AbdullahAnsari"
