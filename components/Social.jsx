@@ -8,7 +8,7 @@ const Social = () => {
   return (
     <>
       <h1 className={styles.h1} dataShadow='Social Links'>Social Links</h1>
-      <div id='about' className='w-full md:h-screen p-2 flex flex-col items-center justify-center py-16'>
+      <div id='social' className='w-full md:h-screen p-2 flex flex-col items-center justify-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid gap-8'>
             <h2 className='py-1'>Find Me Here</h2>
             <div className='flex items-center justify-center'>
