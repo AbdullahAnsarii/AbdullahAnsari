@@ -1,0 +1,16 @@
+.h1 {
+    text-align: center;
+    // display: inline-block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8em;
+    text-shadow: .03em .03em 0 #9d00ffb4;
+}
+
+.about {
+    padding-bottom: 20px;
+    list-style-image: url('https://img.icons8.com/fluency/48/9d00ff/right3.png');
+    /* OR */
+    // list-style-type: '👉';
+    padding-inline-start: 5ch;
+}
