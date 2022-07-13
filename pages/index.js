@@ -13,6 +13,7 @@ export default function Home() {
       <Head>
         <title>Abdullah Ansari | Full Stack Developer</title>
         <meta name="description" content="Abdullah Ansari Portfolio Website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
