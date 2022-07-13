@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from 'react';
 import styles from "../styles/home.module.scss";
 import TypeAnimation from 'react-type-animation';
+import NavLogo2 from '../public/assets/navLogo2.png'
 
 const Main = () => {
   const dots = () => {
@@ -316,7 +317,7 @@ const Main = () => {
 
         </div>
         <div className='w-1/4 hidden md:flex'>
-          <Image src='../public/assets/navLogo2.png' width='400px' height='750px' />
+          <Image src={NavLogo2} width='400px' height='750px' />
         </div>
 
 
