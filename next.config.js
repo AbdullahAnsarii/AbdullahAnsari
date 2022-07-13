@@ -8,6 +8,6 @@ module.exports = {
     path: "http://abdullahansari.me/",
     domains: ['img.icons8.com']
   },
-  basePath: "/AbdullahAnsari",
-  assetPrefix: "/AbdullahAnsari"
+  // basePath: "/AbdullahAnsari",
+  // assetPrefix: "/AbdullahAnsari"
 }
