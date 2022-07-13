@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 import React, { useEffect, useState } from 'react';
 import styles from "../styles/home.module.scss";
 import TypeAnimation from 'react-type-animation';
@@ -315,7 +316,7 @@ const Main = () => {
 
         </div>
         <div className='w-1/4 hidden md:flex'>
-          <img src='/assets/navLogo2.png' width='100%' />
+          <Image src='/assets/navLogo2.png' width='400px' height='750px' />
         </div>
 
 

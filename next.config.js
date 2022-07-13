@@ -5,7 +5,8 @@ module.exports = {
   },
   images:{
     loader: 'akamai',
-    path: "http://abdullahansari.me/"
+    path: "http://abdullahansari.me/",
+    domains: ['img.icons8.com']
   },
   basePath: "/AbdullahAnsari",
   assetPrefix: "/AbdullahAnsari"
