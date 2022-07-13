@@ -169,4 +169,21 @@
     margin-top: -270px;
   }
 }
-
+@media (max-width: 600px) {
+  #container {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    /* padding-top:200px;   */
+    /* position:fixed; */
+    width: 100%;
+    bottom: 40%;
+    display: block;
+  }
+  #flip {
+    height: 20px;
+    overflow: hidden;
+  }
+  
+}

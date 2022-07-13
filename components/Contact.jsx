@@ -5,7 +5,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../public/assets/contact.jpg'
+import ContactImg from '../public/assets/contact.png'
 import styles from '../styles/social.module.scss';
 import { postMessage } from '../utility/message.js'
 
@@ -46,7 +46,7 @@ const Contact = () => {
           <h2 className='py-4'>Get In Touch</h2>
           <div className='grid lg:grid-cols-5 gap-8'>
             {/* left */}
-            <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+            <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-white rounded-xl p-4'>
               <div className='lg:p-4 h-full '>
                 <div>
                   <Image
@@ -65,17 +65,17 @@ const Contact = () => {
                 <div>
                   <p className='uppercase pt-8'>Connect With Me</p>
                   <div className='flex items-center justify-between py-4'>
-                  <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://www.linkedin.com/in/abdullahansarii/"><img src="https://img.icons8.com/color/60/000000/linkedin.png"/></a>
-                <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://github.com/AbdullahAnsarii"><img src="https://img.icons8.com/fluency/60/000000/github.png"/></a>
-                <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://join.skype.com/invite/xjcClYAx5jdS"><img src="https://img.icons8.com/fluency/60/000000/skype.png"/></a>
-                <a className='hover:scale-105 ease-in duration-300' target="_blank" href="mailto:aa9272137@gmail.com"><img src="https://img.icons8.com/color/60/000000/gmail-new.png"/></a>
+                    <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://www.linkedin.com/in/abdullahansarii/"><img src="https://img.icons8.com/color/60/000000/linkedin.png" /></a>
+                    <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://github.com/AbdullahAnsarii"><img src="https://img.icons8.com/fluency/60/000000/github.png" /></a>
+                    <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://join.skype.com/invite/xjcClYAx5jdS"><img src="https://img.icons8.com/fluency/60/000000/skype.png" /></a>
+                    <a className='hover:scale-105 ease-in duration-300' target="_blank" href="mailto:aa9272137@gmail.com"><img src="https://img.icons8.com/color/60/000000/gmail-new.png" /></a>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* right */}
-            <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+            <div className='col-span-3 w-full h-auto shadow-md shadow-white rounded-xl lg:p-4'>
               <div className='p-4'>
                 {showMessage && <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md" role="alert">
                   <div class="flex">
@@ -164,7 +164,7 @@ const Contact = () => {
               <a>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                   <HiOutlineChevronDoubleUp
-                    className='text-[#5651e5]'
+                    className='text-[#9D00FF]'
                     size={30}
                   />
                 </div>
@@ -172,6 +172,17 @@ const Contact = () => {
             </Link>
           </div>
         </div>
+        <footer className="">
+            <section className='p-5 bg-black text-white'>
+                <div >
+                    <div className="">
+                        <div className="text-center">
+                            &copy; {(new Date()).getFullYear()} Abdullah Ansari. All rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
       </div>
     </>
   );
