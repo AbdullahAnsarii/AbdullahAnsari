@@ -17,7 +17,7 @@ const Skills = () => {
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
 
 
-          <h2 className='py-4'>Front-End Skills</h2>
+          <h2 className='py-4'>Front-End</h2>
           <Slide triggerOnce direction='up' fraction={0.5} delay={0}>
             <div className='grid grid-cols-2 lg:grid-cols-6 gap-8'>
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
@@ -85,7 +85,7 @@ const Skills = () => {
           </Slide>
 
 
-          <h2 className='py-4'>Back-End Skills</h2>
+          <h2 className='py-4'>Back-End</h2>
           <Slide triggerOnce direction='up' fraction={0.5} delay={0}>
             <div className='grid grid-cols-2 lg:grid-cols-6 gap-8'>
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
@@ -122,7 +122,7 @@ const Skills = () => {
           </Slide>
 
 
-          <h2 className='py-4'>Database Skills</h2>
+          <h2 className='py-4'>Database</h2>
           <Slide triggerOnce direction='up' fraction={0.5} delay={0}>
             <div className='grid grid-cols-2 lg:grid-cols-6 gap-8'>
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
@@ -157,7 +157,7 @@ const Skills = () => {
               </div>
             </div>
           </Slide>
-          <h2 className='py-4'>Misc. Skills/Programming Languages</h2>
+          <h2 className='py-4'>Misc./Programming Languages</h2>
           <Slide triggerOnce direction='up' fraction={0.5} delay={0}>
             <div className='grid grid-cols-2 lg:grid-cols-6 gap-8'>
               <div className='p-6  text-black bg-white  shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
