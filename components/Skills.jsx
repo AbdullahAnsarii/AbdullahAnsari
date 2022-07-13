@@ -4,7 +4,11 @@ import Javascript from '../public/assets/skills/javascript.png';
 import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Firebase from '../public/assets/skills/firebase.png';
-import NextJS from '../public/assets/skills/nextjs.png'
+import NextJS from '../public/assets/skills/nextjs.png';
+import Express from "../public/assets/Expressjs.png";
+import ASP from "../public/assets/asp.png";
+import MongoDB from '../public/assets/skills/mongo.png';
+import SQL from "../public/assets/sql.png";
 import styles from '../styles/social.module.scss';
 import { Slide } from 'react-awesome-reveal';
 
@@ -101,7 +105,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <img src="../public/assets/Expressjs.png" width='180px' />
+                    <img src={Express} width='180px' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Express</h3>
@@ -111,7 +115,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <img src="../public/assets/asp.png" width='100%' />
+                    <img src={ASP} width='100%' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>ASP.NET</h3>
@@ -128,7 +132,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image src='../public/assets/skills/mongo.png' width='64px' height='64px' />
+                    <Image src={MongoDB} width='64px' height='64px' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>MongoDB</h3>
@@ -148,7 +152,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image width='100%' height='64px' src="../public/assets/sql.png" />
+                    <Image width='100%' height='64px' src={SQL} />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>SQL Server</h3>
@@ -173,7 +177,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image width='100%' height='64px' src="https://img.icons8.com/color/96/000000/typescript.png" />
+                    <img width='100%' height='64px' src="https://img.icons8.com/color/96/000000/typescript.png" />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>TypeScript</h3>
@@ -183,7 +187,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image width='100%' height='64px' src="https://img.icons8.com/color/96/000000/python--v1.png" />
+                    <img width='100%' height='64px' src="https://img.icons8.com/color/96/000000/python--v1.png" />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Python</h3>
@@ -193,7 +197,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image width='100%' height='64px' src="https://img.icons8.com/ios-filled/50/280068/c-sharp-logo.png" />
+                    <img width='100%' height='64px' src="https://img.icons8.com/ios-filled/50/280068/c-sharp-logo.png" />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>C#</h3>
@@ -204,7 +208,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image width='100%' height='64px' src="https://img.icons8.com/color/96/000000/react-native.png" />
+                    <img width='100%' height='64px' src="https://img.icons8.com/color/96/000000/react-native.png" />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>React Native</h3>
@@ -214,7 +218,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image width='100%' height='64px' src="https://img.icons8.com/color/96/000000/amazon-web-services.png" />
+                    <img width='100%' height='64px' src="https://img.icons8.com/color/96/000000/amazon-web-services.png" />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>AWS</h3>
@@ -224,7 +228,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image width='100%' height='64px' src="https://img.icons8.com/color/96/000000/git.png" />
+                    <img width='100%' height='64px' src="https://img.icons8.com/color/96/000000/git.png" />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Git</h3>
