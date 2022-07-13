@@ -1,51 +1,57 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
+import styles from '../styles/social.module.scss';
 
 const Projects = () => {
   return (
+    <>
+    <h1 className={styles.h1} dataShadow='Projects'>Projects</h1>
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
-          Projects
-        </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title="VORTEX MANAGERS' WEBSITES CONVERSION"
+            description='A system of more than 700 vacation rental websites operated by single code-base.'
+            projectUrl='https://rightaboutnow.com/'
+            tech='NextJS | Redux | Bootstrap | ASP.NET | MS SQL Server'
+            type='Associated with Magical Digits.'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
+            title='MAGICAL DIGITS COMPANY WEBSITE'
+            description='Portfolio website of Magical Digits'
+            projectUrl='https://magicaldigits.com/'
+            tech='NextJS | Redux | MUI | Firebase'
+            type='Associated with Magical Digits.'
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
+            title='OPTICOFY'
+            description='A sales and customer management website for optical shops.'
+            projectUrl='https://opticofy.com/'
+            tech='Node.js | Express | MongoDB | EJS | Bootstrap | JQuery | AWS'
+            type='Associated with Magical Digits.'
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
+            title='TWIN BRAIN (PSYCHASSESSMENT)'
+            description='A psychological assessment website for UK based healthcare social enterprise in London supporting family’s psychological, physical, financial, legal, and housing well-being.'
+            projectUrl='https://twin-brain.vercel.app/'
+            tech='NextJS | Ant-Design | Firebase'
+            type='Associated with Upwork (Health City).'
+            />
+          <ProjectItem
+            title='NED EXPRESS'
+            description='A delivery system that includes a mobile application for students and staff of NED University campus and a vendor web app. where orders placed through the mobile applications can be viewed in real-time by vendors (canteen owners). '
+            projectUrl='https://play.google.com/store/apps/details?id=com.nedexpress'
+            tech='React Native | Firebase | HTML/CSS/JS'
+            type='Personal Project.'
 
           />
         </div>
       </div>
     </div>
+    </>
   );
 };
 
