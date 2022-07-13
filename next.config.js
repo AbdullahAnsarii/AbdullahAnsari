@@ -9,5 +9,5 @@ module.exports = {
     domains: ['img.icons8.com']
   },
   // basePath: "/AbdullahAnsari",
-  // assetPrefix: "/AbdullahAnsari"
+  assetPrefix: "/AbdullahAnsari"
 }
