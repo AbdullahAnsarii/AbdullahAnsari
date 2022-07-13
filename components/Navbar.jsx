@@ -75,6 +75,9 @@ const Navbar = () => {
               <Link href='/#about'>About</Link>
             </li>
             <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
+              <Link href='/#social'>Social Links</Link>
+            </li>
+            <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
               <Link href='/#skills'>Skills</Link>
             </li>
             <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
