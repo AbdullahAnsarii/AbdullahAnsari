@@ -101,7 +101,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <img src="/assets/Expressjs.png" width='180px' />
+                    <img src="../public/assets/Expressjs.png" width='180px' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Express</h3>
@@ -111,7 +111,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <img src="/assets/asp.png" width='100%' />
+                    <img src="../public/assets/asp.png" width='100%' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>ASP.NET</h3>
@@ -128,7 +128,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image src='/assets/skills/mongo.png' width='64px' height='64px' />
+                    <Image src='../public/assets/skills/mongo.png' width='64px' height='64px' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>MongoDB</h3>
@@ -148,7 +148,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image width='100%' height='64px' src="/assets/sql.png" />
+                    <Image width='100%' height='64px' src="../public/assets/sql.png" />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>SQL Server</h3>

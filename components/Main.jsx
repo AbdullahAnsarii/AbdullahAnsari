@@ -316,7 +316,7 @@ const Main = () => {
 
         </div>
         <div className='w-1/4 hidden md:flex'>
-          <Image src='/assets/navLogo2.png' width='400px' height='750px' />
+          <Image src='../public/assets/navLogo2.png' width='400px' height='750px' />
         </div>
 
 

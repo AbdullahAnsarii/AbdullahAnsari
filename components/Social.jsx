@@ -14,7 +14,7 @@ const Social = () => {
             <div className='flex items-center justify-center'>
                 <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://www.linkedin.com/in/abdullahansarii/"><img src="https://img.icons8.com/color/96/000000/linkedin.png"/></a>
                 <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://github.com/AbdullahAnsarii"><img src="https://img.icons8.com/fluency/96/000000/github.png"/></a>
-                <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://stackoverflow.com/users/13062632/abdullah-ansari"><Image height='75%' width='65px' src="/assets/so.png"/></a>
+                <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://stackoverflow.com/users/13062632/abdullah-ansari"><Image height='75%' width='65px' src="../public/assets/so.png"/></a>
                 <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://www.facebook.com/abdullahansariee"><img src="https://img.icons8.com/fluency/96/000000/facebook-new.png"/></a>
                 <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://www.instagram.com/abdullahansarie/"><img src="https://img.icons8.com/fluency/96/000000/instagram-new.png"/></a>
                 <a className='hover:scale-105 ease-in duration-300' target="_blank" href="https://abdullahansarii.medium.com/"><img src="https://img.icons8.com/ios-filled/96/ffffff/medium-monogram--v1.png"/></a>
@@ -25,7 +25,7 @@ const Social = () => {
             </div>
         </div>
         <div className='mt-6'>
-            <Image src='/assets/woah.png' height='220px' width='1450' />
+            <Image src='../public/assets/woah.png' height='220px' width='1450' />
         </div>
       </div>
     </>
