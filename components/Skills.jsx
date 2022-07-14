@@ -105,7 +105,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <img src={Express} width='180px' />
+                    <Image src={Express} width='64px' height='64px' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Express</h3>
@@ -115,7 +115,7 @@ const Skills = () => {
               <div className='p-6 text-black bg-white shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <img src={ASP} width='100%' />
+                    <Image src={ASP} width='64px' height='64px' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>ASP.NET</h3>
