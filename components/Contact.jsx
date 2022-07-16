@@ -161,7 +161,7 @@ const Contact = () => {
               <a>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                   <HiOutlineChevronDoubleUp
-                    className='text-[#9D00FF]'
+                    className='text-purple-600'
                     size={30}
                   />
                 </div>

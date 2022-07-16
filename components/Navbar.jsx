@@ -7,8 +7,7 @@ import NavLogo from '../public/assets/nav.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#dadadb');
+  const [linkColor, setLinkColor] = useState('#E2E8F0');
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
 
@@ -47,8 +46,8 @@ const Navbar = () => {
       // style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-sm z-[100] ease-in-out duration-300 backdrop-blur-md px-10'
-          : 'fixed w-full h-20 z-[100] backdrop-blur-md px-10'
+          ? 'fixed w-full h-20 shadow-sm z-[100] ease-in-out duration-300 backdrop-blur-md px-10 bg-transparent'
+          : 'fixed w-full h-20 z-[100] backdrop-blur-md px-10 bg-transparent'
       }
     >
       <div className=' flex justify-between items-center w-full h-full px-2 2xl:px-16'>
@@ -65,25 +64,25 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex '>
-            <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
+            <li className='ml-10 text-md font-bold hover:border-b hover:border-purple-600 hover:text-purple-600'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
+            <li className='ml-10 text-md font-bold hover:border-b hover:border-purple-600 hover:text-purple-600'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
+            <li className='ml-10 text-md font-bold hover:border-b hover:border-purple-600 hover:text-purple-600'>
               <Link href='/#social'>Social Links</Link>
             </li>
-            <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
+            <li className='ml-10 text-md font-bold hover:border-b hover:border-purple-600 hover:text-purple-600'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
+            <li className='ml-10 text-md font-bold hover:border-b hover:border-purple-600 hover:text-purple-600'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
+            <li className='ml-10 text-md font-bold hover:border-b hover:border-purple-600 hover:text-purple-600'>
               <a target='_blank' href='https://drive.google.com/file/d/1e3cYsd9On9XnATUqub5oPNGs7laHBqDz/view'>Resume</a>
             </li>
-            <li className='ml-10 text-md font-bold hover:border-b hover:border-[#9D00FF] hover:text-[#9D00FF]'>
+            <li className='ml-10 text-md font-bold hover:border-b hover:border-purple-600 hover:text-purple-600'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -174,7 +173,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#9D00FF]'>
+              <p className='uppercase tracking-widest text-purple-600'>
                 Let&#39;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>

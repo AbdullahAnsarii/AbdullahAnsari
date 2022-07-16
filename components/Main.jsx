@@ -290,13 +290,13 @@ const Main = () => {
       {dots()}
       <div className=' w-3/4 h-full mx-auto p-2 flex justify-between items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-[#dadadb]'>
+          <p className='uppercase text-sm tracking-widest text-[#E2E8F0]'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
-          <h2 className='py-4 text-[#dadadb] text-4xl'>
+          <h2 className='py-4 text-[#E2E8F0] text-4xl'>
             Hi, I&#39;m
             <TypeAnimation
-              className='text-[#9D00FF]'
+              className='text-purple-600'
               cursor={true}
               sequence={[
                 'Muhammad Abdullah Arif Ansari',

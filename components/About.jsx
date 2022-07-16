@@ -18,10 +18,10 @@ const About = () => {
                 <li>I am a Full Stack Developer mostly working with JavaScript/TypeScript, NextJS/React, Node.js/Express, MongoDB and Firebase.</li>
               </Slide>
               <Slide triggerOnce direction='up' fraction={0.5} delay={50}>
-                <li>I have done Bachelor in Computer Systems Engineering (BE-CS) from <a className='text-[#9D00FF] underline' target="_black" href='https://www.neduet.edu.pk/'>NED University of Engineering and Technology</a>.</li>
+                <li>I have done Bachelor in Computer Systems Engineering (BE-CS) from <a className='text-purple-600' target="_black" href='https://www.neduet.edu.pk/'>NED University of Engineering and Technology</a>.</li>
               </Slide>
               <Slide triggerOnce direction='up' fraction={0.5} delay={100}>
-                <li>I have been working as a Software Engineer at <a className='text-[#9D00FF] underline' target="_blank" href="https://magicaldigits.com">Magical Digits</a> for the last two years, where I collaborate with a team of developers to create products that are being used by various people around the globe.</li>
+                <li>I have been working as a Software Engineer at <a className='text-purple-600' target="_blank" href="https://magicaldigits.com">Magical Digits</a> for the last two years, where I collaborate with a team of developers to create products that are being used by various people around the globe.</li>
               </Slide>
               <Slide triggerOnce direction='up' fraction={0.5} delay={100}>
                 <li>I have worked with clients from all over the world, including but not limited to clients from the USA, UK, Georgia, Poland, and India.</li>
@@ -40,7 +40,7 @@ const About = () => {
             </button>
             </Slide>
             <Link href='/#projects'>
-              <p className='py-2 text-[#9D00FF] underline cursor-pointer'>
+              <p className='py-2 text-purple-600 cursor-pointer'>
                 Check out some of my latest projects.
               </p>
             </Link>

@@ -22,7 +22,7 @@ const Projects = () => {
           <Slide triggerOnce direction='up' fraction={0.5} delay={50}>
           <ProjectItem
             title='MAGICAL DIGITS COMPANY WEBSITE'
-            description='Portfolio website of Magical Digits'
+            description='Portfolio website of Magical Digits.'
             projectUrl='https://magicaldigits.com/'
             tech='NextJS | Redux | MUI | Firebase'
             type='Associated with Magical Digits.'
