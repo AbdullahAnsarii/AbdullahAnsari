@@ -6,7 +6,7 @@ const ProjectItem = ({title, description, tech, projectUrl, type}) => {
   return (
     <div className='group text-center p-6 max-w-lg h-full rounded-lg border shadow-md bg-gray-800 border-gray-700 hover:bg-[#9d00ffb4]'>
     <a target="_blank" href={projectUrl}>
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">{title}</h5>
     </a>
     <p className="mb-3 font-normal text-purple-600 group-hover:text-white">{tech}</p>
     <p className="mb-3 font-normal">{description}</p>
