@@ -7,7 +7,7 @@ const Projects = () => {
     <>
       <h1 className={styles.h1} dataShadow='Projects'>Projects</h1>
       <div id='projects' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 py-16'>
+        <div className='max-w-[1240px] mx-auto px-2 pb-16'>
           <h2 className='py-4'>What I&apos;ve Built</h2>
           <div className='grid md:grid-cols-2 gap-8'>
             <Slide style={{ justifySelf: 'center' }} triggerOnce direction='up' fraction={0.5} delay={0}>

@@ -17,7 +17,7 @@ const Skills = () => {
     <>
       <h1 className={styles.h1} dataShadow='Skills'>Skills</h1>
 
-      <div id='skills' className='w-full p-2'>
+      <div id='skills' className='w-full px-2 pb-16'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
 
 

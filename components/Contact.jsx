@@ -6,6 +6,7 @@ import ContactImg from '../public/assets/contact.png'
 import styles from '../styles/social.module.scss';
 import { postMessage } from '../utility/message.js'
 
+
 const Contact = () => {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
@@ -39,7 +40,7 @@ const Contact = () => {
       <h1 className={styles.h1} dataShadow='Contact'>Contact</h1>
 
       <div id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
+        <div className='max-w-[1240px] m-auto px-2 pb-16 w-full '>
           <h2 className='py-4'>Get In Touch</h2>
           <div className='grid lg:grid-cols-5 gap-8'>
             {/* left */}
@@ -169,6 +170,7 @@ const Contact = () => {
             </Link>
           </div>
         </div>
+        
         <footer className="">
             <section className='p-5 bg-black text-white'>
                 <div >
