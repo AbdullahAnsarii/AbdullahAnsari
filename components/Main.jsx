@@ -288,12 +288,12 @@ const Main = () => {
   return (
     <div id='home' className='w-full h-screen max-w-[1240px]'>
       {dots()}
-      <div className=' w-3/4 h-full mx-auto p-2 flex justify-between items-center'>
+      <div className=' w-full h-full mx-auto p-2 flex justify-center items-center text-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-[#E2E8F0]'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
-          <h2 className='py-4 text-[#E2E8F0] text-4xl'>
+          <h2 className='py-4 text-[#E2E8F0] sm:text-3xl md:text-5xl'>
             Hi, I&#39;m
             <TypeAnimation
               className='text-purple-600'
@@ -306,6 +306,7 @@ const Main = () => {
               wrapper="h3"
               repeat={1}
             />
+             
           </h2>
           <div className='hidden md:flex' id={styles.container}>
             <div id={styles.flip}>
@@ -313,12 +314,13 @@ const Main = () => {
               <div><div>Full Stack Developer</div></div>
               <div><div>Next.js Developer</div></div>
             </div>
+            
           </div>
-
+          <h3 className='invisible text-[#E2E8F0] sm:text-3xl md:text-5xl'>Muhammad Abdullah Arif Ansari|</h3>
         </div>
-        <div className='w-1/4 hidden md:flex'>
+        {/* <div className='w-1/4 hidden md:flex'>
           <Image src={NavLogo2} width='400px' height='750px' />
-        </div>
+        </div> */}
 
 
       </div>
