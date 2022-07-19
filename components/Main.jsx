@@ -316,7 +316,7 @@ const Main = () => {
             </div>
             
           </div>
-          <h3 className='invisible text-[#000000ea] sm:text-3xl md:text-5xl'>Muhammad Abdullah Arif Ansari|</h3>
+          <h3 style={{visibility: 'hidden'}} className='invisible text-[#000000ea] sm:text-3xl md:text-5xl'>Muhammad Abdullah Arif Ansari|</h3>
         </div>
         {/* <div className='w-1/4 hidden md:flex'>
           <Image src={NavLogo2} width='400px' height='750px' />
